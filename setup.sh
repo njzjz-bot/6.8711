@@ -70,7 +70,7 @@ DIFFSBDD_PACKAGES=(
     "seaborn"
     "hdbscan"
     "tqdm"
-    "openbabel-wheel"
+    "openbabel>=3.2.0"
     "gemmi"
     "matplotlib"
     "tensorboardX"
@@ -87,7 +87,7 @@ POCKETXMOL_PACKAGES=(
     "easydict"
     "pytorch-lightning==2.0.9"
     "tqdm"
-    "openbabel-wheel"
+    "openbabel>=3.2.0"
     "scikit-learn"
     "requests"
     "psutil"
@@ -118,7 +118,7 @@ RTMSCORE_PACKAGES=(
     "MDAnalysis==2.0.0"
     "ProDy==2.1.0"
     "rdkit-pypi==2021.9.4"
-    "openbabel-wheel"
+    "openbabel>=3.2.0"
 )
 RASCORE_PACKAGES=(
     "numpy<1.24"
